@@ -1,0 +1,31 @@
+@import './global';
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+
+    li {
+      padding: 5px;
+      border-radius: 10px;
+    }
+    
+    li:hover {
+      background-color: $background-light;
+      color: $color-primary;
+      cursor: pointer;
+    }
+  }
+
+  &__icons svg {
+    width: 2rem;
+    height: auto;
+    fill: $color-primary;
+  }
+}

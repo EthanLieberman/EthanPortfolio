@@ -1,0 +1,79 @@
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+h1, h2, p, div {
+  color: white;
+}
+
+.three-up {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 20rem;
+  justify-items: center;
+}
+.three-up__box {
+  background-color: rgb(24, 24, 24);
+  height: 15rem;
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  -webkit-animation: scaleout 0.5s;
+          animation: scaleout 0.5s;
+}
+@-webkit-keyframes scalein {
+  from {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+  }
+  to {
+    -webkit-transform: scale(105%);
+            transform: scale(105%);
+  }
+}
+@keyframes scalein {
+  from {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+  }
+  to {
+    -webkit-transform: scale(105%);
+            transform: scale(105%);
+  }
+}
+@-webkit-keyframes scaleout {
+  from {
+    -webkit-transform: scale(105%);
+            transform: scale(105%);
+  }
+  to {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+  }
+}
+@keyframes scaleout {
+  from {
+    -webkit-transform: scale(105%);
+            transform: scale(105%);
+  }
+  to {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+  }
+}
+.three-up__box:hover {
+  -webkit-animation: forwards ease-in-out scalein 0.5s;
+          animation: forwards ease-in-out scalein 0.5s;
+}
+.three-up__box p {
+  padding: 15%;
+}

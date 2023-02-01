@@ -1,0 +1,21 @@
+@import './global';
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0.75rem 0;
+  background-color: $background-light;
+}
+
+.vue:hover {
+  color: #6eb487;
+}
+
+.scss:hover {
+  color: #bb6f98;
+}

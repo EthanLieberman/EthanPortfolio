@@ -1,0 +1,8 @@
+@import './global';
+@import './animated-bg';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background; 
+}

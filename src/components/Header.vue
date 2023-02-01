@@ -1,0 +1,54 @@
+<script setup>
+import '../assets/css/header.css';
+import EIcon from '../assets/icons/EIcon.vue';
+import LinkedinIcon from '../assets/icons/LinkedinIcon.vue';
+import GithubIcon from '../assets/icons/GithubIcon.vue';
+</script>
+
+<template>
+  <header class="header">
+    <ul class="header__list header__icons">
+      <li>
+        <a href="/"><EIcon /></a>
+      </li>
+    </ul>
+
+    <ul class="header__list">
+      <li>
+        Home
+      </li>
+      <li>
+        Contact
+      </li>
+      <li>
+        About
+      </li>
+      <li>
+        Projects
+      </li>
+    </ul>
+
+    <ul class="header__list header__icons">
+      <li>
+        <a href="https://www.linkedin.com/in/ethan-lieberman/" target="_blank"><LinkedinIcon /></a>
+      </li>
+      <li>
+        <a href="https://github.com/EthanLieberman" target="_blank"><GithubIcon /></a>
+      </li>
+    </ul>
+  </header>
+</template>
+
+<script>
+export default {
+  components: { },
+props: {
+  stuff: String
+},
+data() {
+  return {
+    pickle: "now"
+  }
+},
+}
+</script>
