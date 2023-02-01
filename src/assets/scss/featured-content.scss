@@ -1,0 +1,16 @@
+@import './global';
+
+.featured-content {
+  margin: 2rem 0;
+  // border: 1px red solid;
+  text-align: center;
+  height: 40vh;
+  background-color: $background-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__image {
+    height: 100%;
+  }
+}

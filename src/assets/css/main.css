@@ -1,0 +1,206 @@
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+h1, h2, p, div {
+  color: white;
+}
+
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+h1, h2, p, div {
+  color: white;
+}
+
+@-webkit-keyframes move {
+  100% {
+    -webkit-transform: translate3d(0, 0, 1px) rotate(360deg);
+            transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+@keyframes move {
+  100% {
+    -webkit-transform: translate3d(0, 0, 1px) rotate(360deg);
+            transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: linear-gradient(120deg, rgb(20, 20, 20) 0%, rgb(40, 40, 40) 100%);
+  overflow: hidden;
+  z-index: -1;
+}
+.background span {
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 20vmin;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  -webkit-animation: move;
+          animation: move;
+  -webkit-animation-duration: 45;
+          animation-duration: 45;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.background span:nth-child(0) {
+  color: rgb(40, 40, 40);
+  top: 62%;
+  left: 26%;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-transform-origin: 5vw 11vh;
+          transform-origin: 5vw 11vh;
+  -webkit-box-shadow: -40vmin 0 5.0672308435vmin currentColor;
+          box-shadow: -40vmin 0 5.0672308435vmin currentColor;
+}
+.background span:nth-child(1) {
+  color: rgb(40, 40, 40);
+  top: 84%;
+  left: 60%;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-delay: -42s;
+          animation-delay: -42s;
+  -webkit-transform-origin: 23vw 25vh;
+          transform-origin: 23vw 25vh;
+  -webkit-box-shadow: -40vmin 0 5.2888715584vmin currentColor;
+          box-shadow: -40vmin 0 5.2888715584vmin currentColor;
+}
+.background span:nth-child(2) {
+  color: rgb(40, 40, 40);
+  top: 74%;
+  left: 36%;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
+  -webkit-animation-delay: -41s;
+          animation-delay: -41s;
+  -webkit-transform-origin: 7vw -19vh;
+          transform-origin: 7vw -19vh;
+  -webkit-box-shadow: -40vmin 0 5.0289898541vmin currentColor;
+          box-shadow: -40vmin 0 5.0289898541vmin currentColor;
+}
+.background span:nth-child(3) {
+  color: rgb(40, 40, 40);
+  top: 41%;
+  left: 45%;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
+  -webkit-animation-delay: -27s;
+          animation-delay: -27s;
+  -webkit-transform-origin: 14vw 1vh;
+          transform-origin: 14vw 1vh;
+  -webkit-box-shadow: -40vmin 0 5.9598999846vmin currentColor;
+          box-shadow: -40vmin 0 5.9598999846vmin currentColor;
+}
+.background span:nth-child(4) {
+  color: rgb(40, 40, 40);
+  top: 89%;
+  left: 56%;
+  -webkit-animation-duration: 27s;
+          animation-duration: 27s;
+  -webkit-animation-delay: -49s;
+          animation-delay: -49s;
+  -webkit-transform-origin: 6vw -11vh;
+          transform-origin: 6vw -11vh;
+  -webkit-box-shadow: -40vmin 0 5.6218315672vmin currentColor;
+          box-shadow: -40vmin 0 5.6218315672vmin currentColor;
+}
+.background span:nth-child(5) {
+  color: rgb(40, 40, 40);
+  top: 62%;
+  left: 83%;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: -29s;
+          animation-delay: -29s;
+  -webkit-transform-origin: -21vw 8vh;
+          transform-origin: -21vw 8vh;
+  -webkit-box-shadow: -40vmin 0 5.2863470301vmin currentColor;
+          box-shadow: -40vmin 0 5.2863470301vmin currentColor;
+}
+.background span:nth-child(6) {
+  color: rgb(40, 40, 40);
+  top: 47%;
+  left: 23%;
+  -webkit-animation-duration: 31s;
+          animation-duration: 31s;
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
+  -webkit-transform-origin: 7vw 4vh;
+          transform-origin: 7vw 4vh;
+  -webkit-box-shadow: 40vmin 0 5.7413399039vmin currentColor;
+          box-shadow: 40vmin 0 5.7413399039vmin currentColor;
+}
+.background span:nth-child(7) {
+  color: rgb(40, 40, 40);
+  top: 2%;
+  left: 76%;
+  -webkit-animation-duration: 37s;
+          animation-duration: 37s;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  -webkit-transform-origin: 19vw 20vh;
+          transform-origin: 19vw 20vh;
+  -webkit-box-shadow: 40vmin 0 5.8076913312vmin currentColor;
+          box-shadow: 40vmin 0 5.8076913312vmin currentColor;
+}
+.background span:nth-child(8) {
+  color: rgb(40, 40, 40);
+  top: 62%;
+  left: 10%;
+  -webkit-animation-duration: 32s;
+          animation-duration: 32s;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  -webkit-transform-origin: 1vw 15vh;
+          transform-origin: 1vw 15vh;
+  -webkit-box-shadow: -40vmin 0 5.2077891209vmin currentColor;
+          box-shadow: -40vmin 0 5.2077891209vmin currentColor;
+}
+.background span:nth-child(9) {
+  color: rgb(40, 40, 40);
+  top: 61%;
+  left: 96%;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+  -webkit-transform-origin: 13vw -24vh;
+          transform-origin: 13vw -24vh;
+  -webkit-box-shadow: -40vmin 0 5.9719126489vmin currentColor;
+          box-shadow: -40vmin 0 5.9719126489vmin currentColor;
+}
+.background span:nth-child(10) {
+  color: rgb(40, 40, 40);
+  top: 92%;
+  left: 98%;
+  -webkit-animation-duration: 31s;
+          animation-duration: 31s;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-transform-origin: -11vw 8vh;
+          transform-origin: -11vw 8vh;
+  -webkit-box-shadow: 40vmin 0 5.6813416785vmin currentColor;
+          box-shadow: 40vmin 0 5.6813416785vmin currentColor;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(20, 20, 20);
+}

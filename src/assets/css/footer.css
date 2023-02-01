@@ -1,0 +1,31 @@
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+h1, h2, p, div {
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  padding: 0.75rem 0;
+  background-color: rgb(24, 24, 24);
+}
+
+.vue:hover {
+  color: #6eb487;
+}
+
+.scss:hover {
+  color: #bb6f98;
+}
