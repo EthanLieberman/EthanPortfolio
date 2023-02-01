@@ -4,7 +4,7 @@ import '../assets/css/featured-content.css';
   
 <template>
   <div class="featured-content">
-    <h2>Ethan Lieberman</h2>
+    <h2 v-text="name"></h2>
     <img class="featured-content__image" src="/profile-pic.png"/>
     <div>
       <h2>Full stack web dev</h2>
@@ -12,3 +12,13 @@ import '../assets/css/featured-content.css';
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: "<Ethan Lieberman/>",
+    }
+  }
+}
+</script>

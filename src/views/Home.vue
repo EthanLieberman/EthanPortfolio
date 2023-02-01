@@ -1,11 +1,11 @@
 <script setup>
-import '../assets/css/main-content.css';
+import '../assets/css/home.css';
 import FeaturedContent from './FeaturedContent.vue';
 import ThreeUp from './ThreeUp.vue';
 </script>
 
 <template>
-  <div class="main-content">
+  <div class="home">
   <FeaturedContent />
   <ThreeUp />
   </div>

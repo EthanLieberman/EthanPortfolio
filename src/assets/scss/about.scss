@@ -1,0 +1,20 @@
+@import './global';
+
+.about {
+  color: white;
+  border: 1px solid red;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 1.5rem;
+  display: grid;
+
+  &__featured-image {
+    height: 200px;
+    background-color: red;
+    grid-area: 1/1;
+  }
+
+  &__content {
+    grid-area: 1/2;
+  }
+}
