@@ -1,1 +1,0 @@
-import{_ as e,o as _,c as o,a as t}from"./index-306c0ea4.js";const s={class:"about"},a=t("div",{class:"about__featured-image"}," picture ",-1),c=t("div",{class:"about__content"}," content ",-1),n=[a,c],l={__name:"About",setup(r){return e(()=>Promise.resolve({}),["assets/about-d08e4c43.css"]),(i,d)=>(_(),o("div",s,n))}};export{l as default};
