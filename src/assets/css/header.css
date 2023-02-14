@@ -13,6 +13,14 @@ p {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
 .header {
   color: white;
   display: -webkit-box;
@@ -40,6 +48,12 @@ p {
   background-color: rgb(24, 24, 24);
   color: rgb(170, 0, 255);
   cursor: pointer;
+}
+.header__icons {
+  min-width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .header__icons svg {
   width: 2rem;

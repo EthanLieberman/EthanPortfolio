@@ -1,0 +1,29 @@
+.projects-code {
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    justify-items: center;
+  }
+}
+
+.grid-code {
+  &__content {
+    width: 500px;
+  }
+
+  &__photo {
+    width: 500px;
+  }
+
+  &__photo img {
+    width: 100%;
+  }
+
+  &__nolist {
+    list-style: disc;
+    text-align: left;
+  }
+}

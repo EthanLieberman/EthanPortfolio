@@ -13,6 +13,14 @@ p {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
 .projects {
   color: white;
   text-align: center;
@@ -31,30 +39,4 @@ p {
   list-style: none;
   gap: 10rem;
   margin-bottom: 2rem;
-}
-.projects__grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  max-width: 1000px;
-  margin: auto;
-  justify-items: center;
-}
-
-.grid__content {
-  width: 500px;
-}
-.grid__photo {
-  width: 500px;
-}
-.grid__photo img {
-  width: 100%;
-}
-.grid__nolist {
-  list-style: disc;
-  text-align: left;
-}
-
-.test {
-  border: 1px red solid;
 }

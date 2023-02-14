@@ -1,0 +1,35 @@
+@import './global';
+
+.project-design {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  grid-gap: 2rem;
+  margin: 0 10rem;
+
+  &__block {
+  background-color: rgb(58, 58, 58);
+  width: 300px;
+  height: 300px;
+  border-radius: 1rem;
+
+    & img {
+      width: 100%;
+      border-radius: inherit;
+    }
+
+    & div {
+      position: relative;
+      padding: 1rem 3rem 0;
+      bottom: 5rem;
+      background-color: rgba(30, 30, 30, 0.75);
+      height: 3.75rem;
+      border-radius: 0 0 1rem 1rem;
+      display: none;
+    }
+
+    &:hover div {
+      display: block;
+    }
+  }
+}

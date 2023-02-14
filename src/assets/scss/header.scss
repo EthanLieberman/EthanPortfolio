@@ -23,6 +23,11 @@
     }
   }
 
+  &__icons {
+    min-width: 150px;
+    justify-content: center;
+  }
+
   &__icons svg {
     width: 2rem;
     height: auto;

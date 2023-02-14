@@ -1,3 +1,3 @@
 <template>
-  tbd
+The fun stuff
 </template>

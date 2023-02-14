@@ -1,8 +1,7 @@
 <script setup>
-import('../assets/css/projects.css');
 import ProjectsCode from './ProjectsCode.vue';
 import ProjectsDesign from './ProjectsDesign.vue';
-import ProjectsTBD from './ProjectsTBD.vue';
+import ProjectsHobby from './ProjectsHobby.vue';
 </script>
 
 <template>
@@ -10,12 +9,12 @@ import ProjectsTBD from './ProjectsTBD.vue';
   <ul class="projects__headers">
     <li @mouseenter="SelectedProject = 1, setProject1()" :class="{projects__selected: project1}">Coding</li>
     <li @mouseenter="SelectedProject = 2, setProject2()" :class="{projects__selected: project2}">Design</li>
-    <li @mouseenter="SelectedProject = 3, setProject3()" :class="{projects__selected: project3}">TBD</li>
+    <li @mouseenter="SelectedProject = 3, setProject3()" :class="{projects__selected: project3}">Hobbies</li>
   </ul>
 
-  <ProjectsCode v-if="SelectedProject == 1"/>
-  <ProjectsDesign v-if="SelectedProject == 2"/>
-  <ProjectsTBD v-if="SelectedProject == 3"/>
+  <ProjectsCode v-if="SelectedProject == 1" v-cloak/>
+  <ProjectsDesign v-if="SelectedProject == 2" v-cloak/>
+  <ProjectsHobby v-if="SelectedProject == 3" v-cloak/>
 
 </div>
 </template>

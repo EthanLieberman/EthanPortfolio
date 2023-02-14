@@ -22,3 +22,11 @@ p {
   font-family: $font-body;
   color: white;
 }
+
+a {
+text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
+}

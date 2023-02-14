@@ -1,5 +1,4 @@
 <script setup>
-import('../assets/css/about.css')
 import ScssIcon from '../assets/icons/ScssIcon.vue';
 import HtmlIcon from '../assets/icons/HtmlIcon.vue';
 import CssIcon from '../assets/icons/CssIcon.vue';
