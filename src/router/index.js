@@ -22,7 +22,13 @@ const routes = [
     path: '/projects',
     name: 'Projects',
     component: () => import('../views/Projects.vue')
-  }
+  },
+  {
+    path: '/:catchAll(.*)',
+    redirect: () => {
+      window.location.replace('/')
+    }
+  },
 ]
 
 const router = createRouter({

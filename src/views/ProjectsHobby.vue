@@ -42,8 +42,10 @@ const images = [
 
   <div class="projects-hobby__text">
     <p>Some things here are a mix of personal and professional,
-      becasue I like doing for fun what I do for work. Some of these things are
+      because I like doing for fun what I do for work. Some of these things are
       Photography, Videography, 3d printing, Drone imaging, Costume design and creation.
+      My interests span many areas, mostly in the arts. I like creating both tangible and digital things.
+      I've worked with metal, electronics, fabric, foam and plastics. I would love to fulfill my passion creating on the job wherever I go.
     </p>
     
   </div>

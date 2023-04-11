@@ -26,7 +26,7 @@ import '../assets/css/project-code.css';
   <div class="grid-code__content">
     <h3>Rod of godly might</h3>
     <p>A C# script for automatic setup of game asset in Unity</p>
-    <p>Created using plain C# utalizing the Unity game engine library, features include:</p>
+    <p>Created using C# utilizing the Unity game engine library, features include:</p>
     <ol class="grid-code__nolist">
       <li>Automatic placement and parenting of gameobjects from project folder to selected avatar</li>
       <li>Prefab scale slider</li>
@@ -49,5 +49,20 @@ import '../assets/css/project-code.css';
   <div class="grid-code__photo">
     <img src="/shopify-demo.jpg" alt="shopify-image">
   </div>
+
+  <div class="grid-code__photo">
+    <img src="/portfolio-site.jpg" alt="shopify-image">
+  </div>
+  <div class="grid-code__content">
+    <h3>This website</h3>
+    <p>My personal portfolio website</p>
+    <p>Created using Vue3 & Scss</p>
+    <ol class="grid-code__nolist">
+      <li>Responsive Mobile first design</li>
+      <li>Conditionally rendered pages</li>
+      <li>Highly Modular component design</li>
+    </ol>
+  </div>
+
 </div>
 </template>
