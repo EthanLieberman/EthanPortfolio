@@ -52,7 +52,7 @@ const images = [
 
   <div class="projects-hobby__grid">
     <div v-for="(image, idx) in images" :key="idx">
-      <img :src="`/${image.pic}.jpg`" alt="hobby-image">
+      <img :src="`${image.pic}.jpg`" alt="hobby-image">
       <p v-text="`${image.text}`"></p>
     </div>
   </div>
