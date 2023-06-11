@@ -6,14 +6,27 @@ $color-primary: rgb(170, 0, 255);
 $color-secondary: rgb(241, 104, 0);
 
 // fonts
-// $font-header: ;
-// $font-body: ;
-
+$font-header: 'Adamina', serif;
+$font-body: 'Roboto Slab', serif;
 
 ul {
   padding-inline-start: 0;
 }
 
-h1, h2, p, div {
+h1, h2, a {
+  font-family: $font-header;
   color: white;
+}
+
+p {
+  font-family: $font-body;
+  color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
 }

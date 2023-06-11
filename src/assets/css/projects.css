@@ -1,0 +1,42 @@
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+h1, h2, a {
+  font-family: "Adamina", serif;
+  color: white;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.projects {
+  color: white;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.projects__selected {
+  color: rgb(170, 0, 255);
+}
+.projects__headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  gap: 10rem;
+  margin-bottom: 2rem;
+}

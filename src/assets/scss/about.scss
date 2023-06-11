@@ -1,0 +1,83 @@
+@import './global';
+
+.about {
+  color: white;
+  max-width: 1440px;
+  margin: 20%;
+  margin-top: 1.5rem;
+  display: grid;
+
+  &__featured-image {
+    height: 100%;
+    border-radius: 1rem;
+  }
+
+  &__image-container {
+    height: 800px;
+    grid-area: 1/1;
+  }
+
+  &__content {
+    grid-area: 1/2;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  &__text {
+    line-height: 2rem;
+  }
+}
+
+.content {
+  &__footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__icon {
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 1rem;
+    box-shadow: -4px 0px 0px 1px $color-primary;
+    margin: .5rem;
+
+    &:hover {
+      animation: shake 1s infinite;
+    }
+
+    &:hover svg {
+      fill: $color-primary;
+    }
+
+    & svg {
+      padding: 0.5rem;
+      fill: black;
+    }
+  }
+
+  &__icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 1px, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(1px, -1px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, -1px, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 1px, 0);
+  }
+}

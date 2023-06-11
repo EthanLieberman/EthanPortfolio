@@ -3,8 +3,22 @@ ul {
           padding-inline-start: 0;
 }
 
-h1, h2, p, div {
+h1, h2, a {
+  font-family: "Adamina", serif;
   color: white;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
 }
 
 ul {
@@ -12,8 +26,22 @@ ul {
           padding-inline-start: 0;
 }
 
-h1, h2, p, div {
+h1, h2, a {
+  font-family: "Adamina", serif;
   color: white;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
 }
 
 @-webkit-keyframes move {
@@ -203,4 +231,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(20, 20, 20);
+  width: 100vw;
+  overflow-x: hidden;
 }

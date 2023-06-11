@@ -3,8 +3,22 @@ ul {
           padding-inline-start: 0;
 }
 
-h1, h2, p, div {
+h1, h2, a {
+  font-family: "Adamina", serif;
   color: white;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
 }
 
 .three-up {
@@ -12,6 +26,7 @@ h1, h2, p, div {
   grid-template-columns: repeat(3, 1fr);
   margin: 0 20rem;
   justify-items: center;
+  text-align: center;
 }
 .three-up__box {
   background-color: rgb(24, 24, 24);

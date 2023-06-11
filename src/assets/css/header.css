@@ -3,8 +3,22 @@ ul {
           padding-inline-start: 0;
 }
 
-h1, h2, p, div {
+h1, h2, a {
+  font-family: "Adamina", serif;
   color: white;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
 }
 
 .header {
@@ -34,6 +48,12 @@ h1, h2, p, div {
   background-color: rgb(24, 24, 24);
   color: rgb(170, 0, 255);
   cursor: pointer;
+}
+.header__icons {
+  min-width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .header__icons svg {
   width: 2rem;

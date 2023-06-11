@@ -9,22 +9,19 @@ import GithubIcon from '../assets/icons/GithubIcon.vue';
   <header class="header">
     <ul class="header__list header__icons">
       <li>
-        <a href="/"><EIcon /></a>
+        <router-link :to="{ name: 'Home' }"><EIcon /></router-link>
       </li>
     </ul>
 
     <ul class="header__list">
       <li>
-        Home
+        <router-link :to="{ name: 'Home' }">Home</router-link>
       </li>
       <li>
-        Contact
+        <router-link :to="{ name: 'About' }">About</router-link>
       </li>
       <li>
-        About
-      </li>
-      <li>
-        Projects
+        <router-link :to="{ name: 'Projects' }">Projects</router-link>
       </li>
     </ul>
 

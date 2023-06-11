@@ -1,0 +1,27 @@
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+h1, h2, a {
+  font-family: "Adamina", serif;
+  color: white;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.home {
+  margin: 2rem 0;
+  text-align: center;
+}

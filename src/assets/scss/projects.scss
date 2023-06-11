@@ -1,0 +1,19 @@
+@import './global';
+
+.projects {
+  color: white;
+  text-align: center;
+  margin-bottom: 5rem;
+
+  &__selected {
+    color: $color-primary;
+  }
+
+  &__headers {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10rem;
+    margin-bottom: 2rem;
+  }
+}
